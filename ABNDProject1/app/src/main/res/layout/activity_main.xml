@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="8dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/stark_industries_logo"/>
+
+    <TextView
+        android:textSize="24sp"
+        android:textColor="#222222"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stark Industries"/>
+    <TextView
+        android:textSize="14sp"
+        android:layout_gravity="center"
+        android:textColor="#555555"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="starkindustries@stark.com"/>
+    <TextView
+        android:layout_gravity="center"
+        android:textColor="#555555"
+        android:textSize="14sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+91 9027934075"/>
+    <TextView
+        android:layout_gravity="center"
+        android:textColor="#555555"
+        android:textSize="14sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New YOrk,US"/>
+    <TextView
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center"
+        android:textColor="#555555"
+        android:textSize="14sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Timings : 24X7 days"/>
+
+
+    <TextView
+        android:textSize="18sp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#333333"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Stark Industries "/>
+
+    <TextView
+        android:textSize="16sp"
+        android:layout_margin="10dp"
+        android:text="@string/bussiness_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="18sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#333333"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Tony Stark "/>
+    <RelativeLayout
+        android:layout_margin="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginRight="8dp"
+            android:id="@+id/profilePhoto"
+            android:layout_marginBottom="8dp"
+            android:layout_gravity="center"
+            android:layout_width="66dp"
+            android:layout_height="66dp"
+            android:src="@drawable/tony_stark"/>
+
+        <TextView
+            android:layout_toRightOf="@id/profilePhoto"
+            android:id="@+id/nameText"
+            android:textSize="24sp"
+            android:textColor="#222222"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tony Stark"/>
+        <TextView
+            android:layout_below="@id/nameText"
+            android:layout_toRightOf="@id/profilePhoto"
+            android:id="@+id/emialText"
+            android:textSize="14sp"
+            android:layout_gravity="center"
+            android:textColor="#555555"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tonystark@gmail.com"/>
+        <TextView
+            android:layout_below="@id/emialText"
+            android:layout_toRightOf="@id/profilePhoto"
+            android:id="@+id/phoneNumberText"
+            android:layout_marginBottom="16dp"
+            android:layout_gravity="center"
+            android:textColor="#555555"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+91 9027934075"/>
+
+    </RelativeLayout>
+    <TextView
+        android:textSize="16sp"
+        android:text="@string/tonystark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>
