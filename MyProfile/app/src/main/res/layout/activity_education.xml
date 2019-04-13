@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".education">
+    <LinearLayout
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+    android:orientation="vertical">
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+        android:text="MAster in Electrical Engineering"
+        android:textSize="16sp"
+        android:textColor="#222222"/>
+        <TextView
+                  android:text="Massachusets Institute of Technology"
+                  android:textSize="14sp"
+                  android:layout_marginTop="2dp"
+                  android:textColor="#555555"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"/>
+        <View
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="MAster in Electrical Engineering"
+                  android:textSize="16sp"
+                  android:textColor="#222222"/>
+        <TextView
+                android:text="Massachusets Institute of Technology"
+                android:textSize="14sp"
+                android:layout_marginTop="2dp"
+                android:textColor="#555555"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        <View
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider"/>
+    </LinearLayout>
+    <LinearLayout
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="MAster in Electrical Engineering"
+                  android:textSize="16sp"
+                  android:textColor="#222222"/>
+        <TextView
+                android:text="Massachusets Institute of Technology"
+                android:textSize="14sp"
+                android:layout_marginTop="2dp"
+                android:textColor="#555555"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="5dp"
+            android:background="@color/divider"/>
+    </LinearLayout>
+</LinearLayout>
